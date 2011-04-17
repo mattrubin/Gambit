@@ -1,0 +1,3 @@
+[submodule "References/jsGB"]
+	path = References/jsGB
+	url = git://github.com/Two9A/jsGB.git
