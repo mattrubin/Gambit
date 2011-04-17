@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		C9533FD0135B7C670006301C /* CPU.c */ = {isa = PBXFileReference; path = CPU.c; sourceTree = "<group>"; };
+		C9533FD1135B7C670006301C /* CPU.h */ = {isa = PBXFileReference; path = CPU.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		C9783EA1135A62F000AA380D = {
 			isa = PBXGroup;
 			children = (
+				C9533FD0135B7C670006301C /* CPU.c */,
+				C9533FD1135B7C670006301C /* CPU.h */,
 			);
 			sourceTree = "<group>";
 		};
