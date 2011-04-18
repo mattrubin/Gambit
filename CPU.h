@@ -6,8 +6,8 @@
 //  Copyright 2011 Matt Rubin. All rights reserved.
 //
 
-typedef unsigned char byte;
-typedef unsigned short word;
+#include "DataTypes.h"
+#include "MMU.h"
 
 typedef struct {
 	// Time clock: The Z80 holds two types of clock (m and t)
@@ -22,4 +22,7 @@ typedef struct {
 		word pc, sp;                    // 16-bit registers
 		byte m, t;                      // Clock for last instr
 	} registers;
+	
+	MMU* mmu;
+	
 } CPU;
