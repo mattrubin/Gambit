@@ -1,3 +1,6 @@
 [submodule "References/jsGB"]
 	path = References/jsGB
 	url = git://github.com/Two9A/jsGB.git
+[submodule "References/gnuboy"]
+	path = References/gnuboy
+	url = git://github.com/zodttd/gameboy4iphone.git
