@@ -13,6 +13,8 @@
 		C9534036135BC3240006301C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9534034135BC3240006301C /* Credits.rtf */; };
 		C9534039135BC3240006301C /* GambitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9534038135BC3240006301C /* GambitAppDelegate.m */; };
 		C953403C135BC3250006301C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953403A135BC3250006301C /* MainMenu.xib */; };
+		C9534043135BC42B0006301C /* CPU.c in Sources */ = {isa = PBXBuildFile; fileRef = C9533FD0135B7C670006301C /* CPU.c */; };
+		C9534045135BC42B0006301C /* MMU.c in Sources */ = {isa = PBXBuildFile; fileRef = C9533FD3135BB5AF0006301C /* MMU.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9534043135BC42B0006301C /* CPU.c in Sources */,
+				C9534045135BC42B0006301C /* MMU.c in Sources */,
 				C9534033135BC3240006301C /* main.m in Sources */,
 				C9534039135BC3240006301C /* GambitAppDelegate.m in Sources */,
 			);
