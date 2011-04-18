@@ -15,6 +15,7 @@
 		C953403C135BC3250006301C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953403A135BC3250006301C /* MainMenu.xib */; };
 		C9534043135BC42B0006301C /* CPU.c in Sources */ = {isa = PBXBuildFile; fileRef = C9533FD0135B7C670006301C /* CPU.c */; };
 		C9534045135BC42B0006301C /* MMU.c in Sources */ = {isa = PBXBuildFile; fileRef = C9533FD3135BB5AF0006301C /* MMU.c */; };
+		C9534049135BC4DD0006301C /* Emulator.m in Sources */ = {isa = PBXBuildFile; fileRef = C9534048135BC4DD0006301C /* Emulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		C9534037135BC3240006301C /* GambitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GambitAppDelegate.h; sourceTree = "<group>"; };
 		C9534038135BC3240006301C /* GambitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GambitAppDelegate.m; sourceTree = "<group>"; };
 		C953403B135BC3250006301C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9534047135BC4DD0006301C /* Emulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emulator.h; sourceTree = "<group>"; };
+		C9534048135BC4DD0006301C /* Emulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			children = (
 				C9534037135BC3240006301C /* GambitAppDelegate.h */,
 				C9534038135BC3240006301C /* GambitAppDelegate.m */,
+				C9534047135BC4DD0006301C /* Emulator.h */,
+				C9534048135BC4DD0006301C /* Emulator.m */,
 				C953403A135BC3250006301C /* MainMenu.xib */,
 				C953402C135BC3240006301C /* Supporting Files */,
 			);
@@ -190,6 +195,7 @@
 				C9534045135BC42B0006301C /* MMU.c in Sources */,
 				C9534033135BC3240006301C /* main.m in Sources */,
 				C9534039135BC3240006301C /* GambitAppDelegate.m in Sources */,
+				C9534049135BC4DD0006301C /* Emulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
