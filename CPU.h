@@ -12,8 +12,8 @@
 typedef struct {
 	// Time clock: The Z80 holds two types of clock (m and t)
 	struct {
-		int m = 0;
-		int t = 0;
+		int m;
+		int t;
 	} clock;
 
 	// Register set
