@@ -6,12 +6,17 @@
 //  Copyright 2011 Matt Rubin. All rights reserved.
 //
 
-#ifndef BYTE_TYPE
-#define BYTE_TYPE
+#ifndef _BYTE_TYPE
+#define _BYTE_TYPE
 typedef unsigned char byte;
 #endif
 
-#ifndef WORD_TYPE
-#define WORD_TYPE
+#ifndef _WORD_TYPE
+#define _WORD_TYPE
 typedef unsigned short word;
+#endif
+
+#ifndef _ADDR_TYPE
+#define _ADDR_TYPE
+typedef word addr;
 #endif
