@@ -6,16 +6,100 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9534026135BC3240006301C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9534025135BC3240006301C /* Cocoa.framework */; };
+		C9534030135BC3240006301C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C953402E135BC3240006301C /* InfoPlist.strings */; };
+		C9534033135BC3240006301C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9534032135BC3240006301C /* main.m */; };
+		C9534036135BC3240006301C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9534034135BC3240006301C /* Credits.rtf */; };
+		C9534039135BC3240006301C /* GambitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9534038135BC3240006301C /* GambitAppDelegate.m */; };
+		C953403C135BC3250006301C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953403A135BC3250006301C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C9533FD0135B7C670006301C /* CPU.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CPU.c; sourceTree = "<group>"; };
 		C9533FD1135B7C670006301C /* CPU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPU.h; sourceTree = "<group>"; };
 		C9533FD3135BB5AF0006301C /* MMU.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MMU.c; sourceTree = "<group>"; };
 		C9533FD4135BB5AF0006301C /* MMU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMU.h; sourceTree = "<group>"; };
 		C9533FD5135BB6410006301C /* DataTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
+		C9534021135BC3240006301C /* Gambit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gambit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9534025135BC3240006301C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9534028135BC3240006301C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9534029135BC3240006301C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C953402A135BC3240006301C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C953402D135BC3240006301C /* Gambit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gambit-Info.plist"; sourceTree = "<group>"; };
+		C953402F135BC3240006301C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9534031135BC3240006301C /* Gambit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gambit-Prefix.pch"; sourceTree = "<group>"; };
+		C9534032135BC3240006301C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9534035135BC3240006301C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9534037135BC3240006301C /* GambitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GambitAppDelegate.h; sourceTree = "<group>"; };
+		C9534038135BC3240006301C /* GambitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GambitAppDelegate.m; sourceTree = "<group>"; };
+		C953403B135BC3250006301C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		C953401E135BC3240006301C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9534026135BC3240006301C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		C9783EA1135A62F000AA380D = {
+		C9534022135BC3240006301C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9534021135BC3240006301C /* Gambit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9534024135BC3240006301C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9534025135BC3240006301C /* Cocoa.framework */,
+				C9534027135BC3240006301C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9534027135BC3240006301C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9534028135BC3240006301C /* AppKit.framework */,
+				C9534029135BC3240006301C /* CoreData.framework */,
+				C953402A135BC3240006301C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C953402B135BC3240006301C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C9534037135BC3240006301C /* GambitAppDelegate.h */,
+				C9534038135BC3240006301C /* GambitAppDelegate.m */,
+				C953403A135BC3250006301C /* MainMenu.xib */,
+				C953402C135BC3240006301C /* Supporting Files */,
+			);
+			name = App;
+			path = Gambit;
+			sourceTree = "<group>";
+		};
+		C953402C135BC3240006301C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C953402D135BC3240006301C /* Gambit-Info.plist */,
+				C953402E135BC3240006301C /* InfoPlist.strings */,
+				C9534031135BC3240006301C /* Gambit-Prefix.pch */,
+				C9534032135BC3240006301C /* main.m */,
+				C9534034135BC3240006301C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9534041135BC3B20006301C /* Emulator */ = {
 			isa = PBXGroup;
 			children = (
 				C9533FD5135BB6410006301C /* DataTypes.h */,
@@ -24,9 +108,40 @@
 				C9533FD3135BB5AF0006301C /* MMU.c */,
 				C9533FD4135BB5AF0006301C /* MMU.h */,
 			);
+			name = Emulator;
+			sourceTree = "<group>";
+		};
+		C9783EA1135A62F000AA380D = {
+			isa = PBXGroup;
+			children = (
+				C9534041135BC3B20006301C /* Emulator */,
+				C953402B135BC3240006301C /* App */,
+				C9534024135BC3240006301C /* Frameworks */,
+				C9534022135BC3240006301C /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9534020135BC3240006301C /* Gambit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C953403F135BC3250006301C /* Build configuration list for PBXNativeTarget "Gambit" */;
+			buildPhases = (
+				C953401D135BC3240006301C /* Sources */,
+				C953401E135BC3240006301C /* Frameworks */,
+				C953401F135BC3240006301C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gambit;
+			productName = Gambit;
+			productReference = C9534021135BC3240006301C /* Gambit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C9783EA3135A62F000AA380D /* Project object */ = {
@@ -42,14 +157,117 @@
 				en,
 			);
 			mainGroup = C9783EA1135A62F000AA380D;
+			productRefGroup = C9534022135BC3240006301C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C9534020135BC3240006301C /* Gambit */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C953401F135BC3240006301C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9534030135BC3240006301C /* InfoPlist.strings in Resources */,
+				C9534036135BC3240006301C /* Credits.rtf in Resources */,
+				C953403C135BC3250006301C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C953401D135BC3240006301C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9534033135BC3240006301C /* main.m in Sources */,
+				C9534039135BC3240006301C /* GambitAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C953402E135BC3240006301C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953402F135BC3240006301C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9534034135BC3240006301C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9534035135BC3240006301C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C953403A135BC3250006301C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953403B135BC3250006301C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		C953403D135BC3250006301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gambit/Gambit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Gambit/Gambit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C953403E135BC3250006301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gambit/Gambit-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Gambit/Gambit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		C9783EA8135A62F100AA380D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -65,6 +283,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C953403F135BC3250006301C /* Build configuration list for PBXNativeTarget "Gambit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953403D135BC3250006301C /* Debug */,
+				C953403E135BC3250006301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C9783EA6135A62F000AA380D /* Build configuration list for PBXProject "Gambit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
