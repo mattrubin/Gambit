@@ -7,3 +7,7 @@
 //
 
 #include "Ops.h"
+
+void NOP(CPU* cpu){
+	//SET TIMER
+}
