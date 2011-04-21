@@ -32,7 +32,7 @@ Existing Emulators
 
 Other Resources
 --------------
-* http://www.legendarypokemon.net/gmbspec
-* http://code.google.com/p/gnuboy/wiki/GameboyHardware
-* http://code.google.com/p/ugabe/source/browse/#svn/trunk/jgbe
-* http://cratel.wichita.edu/cratel/ECE238Spr08
+* <http://www.legendarypokemon.net/gmbspec>
+* <http://code.google.com/p/gnuboy/wiki/GameboyHardware>
+* <http://code.google.com/p/ugabe/source/browse/#svn/trunk/>
+* <http://cratel.wichita.edu/cratel/ECE238Spr08>
