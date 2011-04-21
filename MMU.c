@@ -91,6 +91,8 @@ byte readByte(MMU* mmu, addr address){
 					return 0;
 				}
 		}
+		default:
+			return 0;
 	}
 }
 
