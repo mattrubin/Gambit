@@ -19,10 +19,13 @@ typedef struct {
 	// Register set
 	struct {
 		byte a, b, c, d, e, h, l, f;    // 8-bit registers
-		word pc, sp;                    // 16-bit registers
-		byte m, t;                      // Clock for last instr
+		word pc, sp;                    // Program counter and stack pointer
+		byte m, t;                      // Clock for last instruction
 	} registers;
 	
 	MMU* mmu;
 	
 } CPU;
+
+void resetCPU(CPU* cpu);
+void runCPU(CPU* cpu);

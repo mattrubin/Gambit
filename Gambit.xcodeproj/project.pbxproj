@@ -16,6 +16,7 @@
 		C9534043135BC42B0006301C /* CPU.c in Sources */ = {isa = PBXBuildFile; fileRef = C9533FD0135B7C670006301C /* CPU.c */; };
 		C9534045135BC42B0006301C /* MMU.c in Sources */ = {isa = PBXBuildFile; fileRef = C9533FD3135BB5AF0006301C /* MMU.c */; };
 		C9534049135BC4DD0006301C /* Emulator.m in Sources */ = {isa = PBXBuildFile; fileRef = C9534048135BC4DD0006301C /* Emulator.m */; };
+		C95F72371360EF1700876F5C /* Ops.c in Sources */ = {isa = PBXBuildFile; fileRef = C95F72351360EF1700876F5C /* Ops.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		C953403B135BC3250006301C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C9534047135BC4DD0006301C /* Emulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emulator.h; sourceTree = "<group>"; };
 		C9534048135BC4DD0006301C /* Emulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emulator.m; sourceTree = "<group>"; };
+		C95F72351360EF1700876F5C /* Ops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ops.c; sourceTree = "<group>"; };
+		C95F72361360EF1700876F5C /* Ops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ops.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				C9533FD1135B7C670006301C /* CPU.h */,
 				C9533FD3135BB5AF0006301C /* MMU.c */,
 				C9533FD4135BB5AF0006301C /* MMU.h */,
+				C95F72351360EF1700876F5C /* Ops.c */,
+				C95F72361360EF1700876F5C /* Ops.h */,
 			);
 			name = Emulator;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				C9534033135BC3240006301C /* main.m in Sources */,
 				C9534039135BC3240006301C /* GambitAppDelegate.m in Sources */,
 				C9534049135BC4DD0006301C /* Emulator.m in Sources */,
+				C95F72371360EF1700876F5C /* Ops.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				C953403E135BC3250006301C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9783EA6135A62F000AA380D /* Build configuration list for PBXProject "Gambit" */ = {
 			isa = XCConfigurationList;
