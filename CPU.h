@@ -24,6 +24,11 @@ typedef struct {
 		byte m, t;                      // Clock for last instruction
 	} registers;
 	
+	// Saved register set
+	struct {
+		byte a, b, c, d, e, h, l, f;    // 8-bit registers
+	} rsv;
+	
 	MMU* mmu;
 	
 } CPU;
