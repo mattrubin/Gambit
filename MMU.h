@@ -13,7 +13,7 @@
 typedef struct {
 	
 	//byte bios[0xFFFF];
-	byte rom0[0x4000];
+	byte rom[0x4000];
 	byte rom1[0x4000];
 	byte vram[0x2000];
 	byte eram[0x2000];

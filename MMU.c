@@ -16,7 +16,7 @@ void initMMU(MMU* mmu){
 
 byte readByte(MMU* mmu, addr address){
 	switch(address & 0xF000){
-		// BIOS (256b)/ROM0
+/*		// BIOS (256b)/ROM0
 		case 0x0000:
 			if(mmu->inBIOS)
 			{
@@ -44,7 +44,7 @@ byte readByte(MMU* mmu, addr address){
 		// Graphics: VRAM (8k)
 		case 0x8000:
 		case 0x9000:
-			return GPU->vram[address & 0x1FFF];
+			return mmu->vram[address & 0x1FFF];
 			
 		// External RAM (8k)
 		case 0xA000:
@@ -90,7 +90,7 @@ byte readByte(MMU* mmu, addr address){
 					// Currently unhandled
 					return 0;
 				}
-		}
+		}*/
 		default:
 			return 0;
 	}
@@ -100,5 +100,12 @@ word readWord(MMU* mmu, addr address) {
 	return (word)readByte(mmu, address) & ((word)readByte(mmu, address+1)<<8);
 }
 
-void writeByte(MMU* mmu, addr address, byte data); // Write 8-bit byte to a given address
-void writeWord(MMU* mmu, addr address, word data); // Write 16-bit word to a given address
+ // Write 8-bit byte to a given address
+void writeByte(MMU* mmu, addr address, byte data){
+#warning UNIMPLEMENTED
+}
+
+// Write 16-bit word to a given address
+void writeWord(MMU* mmu, addr address, word data){
+#warning UNIMPLENETED
+}
